@@ -1,5 +1,43 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-.env
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# MacOS system files
 .DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Output files (optional)
+*.csv
+*.xlsx
+*.h5
+
+# Environment variable files
+.env
+.env.*
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Others
+*.bak
